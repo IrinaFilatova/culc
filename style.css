@@ -1,0 +1,33 @@
+#otvet {
+    display: none;
+}
+body {
+    background: rgb(223, 223, 231);
+    text-align: center;
+}
+p {
+    font-size: 20px;
+}
+pre {
+    margin: 20px auto;
+    width: 350px;
+    padding: 25px;
+    background: rgb(83, 108, 155);
+    border: 1px solid black;
+    font-size: 18px;
+}
+input[type="number"]{
+    width: 40px;
+    text-align: right;
+}
+input[type="button"]{
+    background: rgb(4, 151, 151);
+    border: none;
+    padding: 10px 35px;
+    font-size: 20px;
+    color: whitesmoke;
+    border-radius: 6px;
+}
+input[type="button"]:hover {
+opacity: 0.8;
+}
